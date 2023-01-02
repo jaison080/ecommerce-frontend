@@ -1,0 +1,56 @@
+.hero__container {
+  margin: 1rem;
+}
+.hero__container_img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.hero__container_card {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+  width: 100%;
+  max-width: 700px;
+  padding: 1.5rem;
+  background: rgba(222, 222, 222, 0.7);
+  backdrop-filter: blur(2.5px);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+  justify-content: flex-start;
+}
+.hero__container_card_button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  color: white;
+  width: 180px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background: #1b4b66;
+  border-radius: 8px;
+}
+.hero__container_card_title {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 84px;
+  color: #1b4b66;
+}
+.hero__container_card_content {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #1b4b66;
+}
+.hero__container_card_button_icon {
+  font-size: 1.5rem;
+}

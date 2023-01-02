@@ -1,0 +1,33 @@
+.shopbybrands__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  row-gap: 2rem;
+}
+.shopbybrands__container_title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  color: #13101e;
+}
+.shopbybrands__container_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 2rem;
+}
+.shopbybrands__container_card {
+  width: 168px;
+  height: 168px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  border-radius: 16px;
+}
